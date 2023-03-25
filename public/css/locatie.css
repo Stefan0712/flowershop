@@ -1,0 +1,15 @@
+.location-section{
+    height: calc(100vh - 105px)
+}
+footer{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
