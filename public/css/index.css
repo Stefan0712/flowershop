@@ -2,12 +2,30 @@
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .hero-section{
     height: 500px;
     width: 100vw;
     background-color: rgba(211, 211, 211, 0.384);
+    position: relative;
 }
+.carousel-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+.carousel-img{
+    width: 40%;
+}
+.carousel-text{
+    width: 40%;
+}
+
 .products-section{
     margin-top: 100px;
     display: flex;
@@ -152,15 +170,45 @@
     justify-content: center;
     gap: 20px;
 }
-.program table{
-    width: 50%;
-    border-spacing: 10px;
-    
+.date-contact{
+    align-items: start;
 }
-.program .table-hours{
-    text-align: right;
-}
+.date-contact a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
 
+}
+.date-contact a:hover{
+    border-bottom: 1px solid gray;
+    transition: all 0.2s;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+
+}
+.schedule div{
+    display: flex;
+    justify-content: space-between;
+}
+#open-status{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.open{
+    background-color: rgb(84, 155, 84);
+}
+.closed{
+    background-color: rgb(196, 64, 64);
+}
 
 
 

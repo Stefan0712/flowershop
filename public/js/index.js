@@ -184,10 +184,13 @@ const checkIfOpen = () =>{
       isOpen = true
     }
   }
+  const openStatus = document.getElementById('open-status')
   if(isOpen){
-    document.getElementById('open-status').textContent = 'Acum este deschis'
+    openStatus.textContent = 'Acum este deschis'
+    openStatus.classList.add('open')
   }else{
-    document.getElementById('open-status').textContent = 'Acum este inchis'
+    openStatus.textContent = 'Acum este inchis'
+    openStatus.classList.add('closed')
   }
 
 }
