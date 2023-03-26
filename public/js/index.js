@@ -175,7 +175,7 @@ const checkIfOpen = () =>{
     if(hours>=9 && hours<18){
       isOpen = true
     }
-  }else if(dayOfTheWeek===1){
+  }else if(dayOfTheWeek===0){
     if(hours>=10 && hours<15){
       isOpen = true
     }
@@ -195,3 +195,39 @@ const checkIfOpen = () =>{
 
 }
 checkIfOpen()
+//index for carousel
+let currentIndex = 1;
+const changeCarouselImage = (direction) =>{
+  const img0 = document.getElementById('carousel-img-0')
+  const img1 = document.getElementById('carousel-img-1')
+  const img2 = document.getElementById('carousel-img-2')
+  if(direction==='next'){
+    if(currentIndex===1){
+      img1.classList.toggle('current-img')
+      img2.classList.toggle('current-img')
+      currentIndex=2
+    }else if(currentIndex===2){
+      img2.classList.toggle('current-img')
+      img0.classList.toggle('current-img')
+      currentIndex=0
+    }else if(currentIndex===0){
+      img0.classList.toggle('current-img')
+      img1.classList.toggle('current-img')
+      currentIndex=1
+    }
+  }else if(direction==='prev'){
+    if(currentIndex===1){
+      img1.classList.toggle('current-img')
+      img0.classList.toggle('current-img')
+      currentIndex=0
+    }else if(currentIndex===0){
+      img0.classList.toggle('current-img')
+      img2.classList.toggle('current-img')
+      currentIndex=2
+    }else if(currentIndex===2){
+      img2.classList.toggle('current-img')
+      img1.classList.toggle('current-img')
+      currentIndex=1
+    }
+  }
+}

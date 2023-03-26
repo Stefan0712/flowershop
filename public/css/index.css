@@ -4,27 +4,48 @@
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
-.hero-section{
-    height: 500px;
+.carousel{
+    height: 750px;
     width: 100vw;
     background-color: rgba(211, 211, 211, 0.384);
     position: relative;
-}
-.carousel-section{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
-    position: absolute;
 }
+
 .carousel-img{
-    width: 40%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all 0.3s;
+    visibility: hidden;
 }
-.carousel-text{
-    width: 40%;
+.current-img{
+    visibility: visible;
 }
+.carousel .left-btn, .carousel .right-btn{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    height: 100%;
+    width: 150px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel .left-btn:hover, .carousel .right-btn:hover{
+    background-color: rgba(211, 211, 211, 0.288);
+}
+.carousel .right-btn{
+    right: 0px;
+    left: auto;
+}
+
 
 .products-section{
     margin-top: 100px;

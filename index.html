@@ -24,21 +24,12 @@
             <a href="#locatie">Locatie</a>
         </div>
     </nav>
-    <div class="hero-section">
-        <div class="left-btn">&#8592;</div>
-        <div class="carousel-section" id="carousel-1">
-            <div class="carousel-text">Image 1</div>
-            <img src="/public/images/img-1.jpg" alt="" class="carousel-img">
-        </div>
-        <div class="carousel-section" id="carousel-2">
-            <div class="carousel-text">Image 2</div>
-            <img src="/public/images/img-2.jpg" alt="" class="carousel-img">
-        </div>
-        <div class="carousel-section" id="carousel-3">
-            <div class="carousel-text">Image 3</div>
-            <img src="/public/images/img-3.jpg" alt="" class="carousel-img">
-        </div>
-        <div class="right-btn">&#8594;</div>
+    <div class="carousel">
+        <div class="left-btn" onClick="changeCarouselImage('prev')">&#8592;</div>
+            <img src="/public/images/img-1.jpg" alt="" class="carousel-img" id="carousel-img-0">
+            <img src="/public/images/img-2.jpg" alt="" class="carousel-img current-img" id="carousel-img-1">
+            <img src="/public/images/img-3.jpg" alt="" class="carousel-img" id="carousel-img-2">
+        <div class="right-btn" onClick="changeCarouselImage('next')">&#8594;</div>
     </div>
     <div class="products-section">
         <div class="products-header">
