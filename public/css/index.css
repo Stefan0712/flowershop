@@ -10,6 +10,8 @@
     background-color: rgba(211, 211, 211, 0.384);
     position: relative;
     overflow: hidden;
+    transition: all 0.3s;
+    user-select: none;
 }
 
 .carousel-img{
@@ -17,11 +19,12 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    transition: all 0.3s;
     visibility: hidden;
+    transition: all 0.3s;
 }
 .current-img{
     visibility: visible;
+    transition: all 0.3s;
 }
 .carousel .left-btn, .carousel .right-btn{
     position: absolute;
