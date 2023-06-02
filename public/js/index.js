@@ -186,48 +186,13 @@ const checkIfOpen = () =>{
   }
   const openStatus = document.getElementById('open-status')
   if(isOpen){
-    openStatus.textContent = 'Acum este deschis'
+    openStatus.textContent = 'Open'
     openStatus.classList.add('open')
   }else{
-    openStatus.textContent = 'Acum este inchis'
+    openStatus.textContent = 'Closed'
     openStatus.classList.add('closed')
   }
 
 }
 checkIfOpen()
-//index for carousel
-let currentIndex = 1;
-const changeCarouselImage = (direction) =>{
-  const img0 = document.getElementById('carousel-img-0')
-  const img1 = document.getElementById('carousel-img-1')
-  const img2 = document.getElementById('carousel-img-2')
-  if(direction==='next'){
-    if(currentIndex===1){
-      img1.classList.toggle('current-img')
-      img2.classList.toggle('current-img')
-      currentIndex=2
-    }else if(currentIndex===2){
-      img2.classList.toggle('current-img')
-      img0.classList.toggle('current-img')
-      currentIndex=0
-    }else if(currentIndex===0){
-      img0.classList.toggle('current-img')
-      img1.classList.toggle('current-img')
-      currentIndex=1
-    }
-  }else if(direction==='prev'){
-    if(currentIndex===1){
-      img1.classList.toggle('current-img')
-      img0.classList.toggle('current-img')
-      currentIndex=0
-    }else if(currentIndex===0){
-      img0.classList.toggle('current-img')
-      img2.classList.toggle('current-img')
-      currentIndex=2
-    }else if(currentIndex===2){
-      img2.classList.toggle('current-img')
-      img1.classList.toggle('current-img')
-      currentIndex=1
-    }
-  }
-}
+

@@ -22,51 +22,92 @@
             <a href="/pages/despre.html">About</a>
         </div>
     </nav>
-    <div class="carousel">
-        <div class="left-btn" onClick="changeCarouselImage('prev')">&#8592;</div>
-            <img src="/public/images/img-1.jpg" alt="" class="carousel-img" id="carousel-img-0">
-            <img src="/public/images/img-2.jpg" alt="" class="carousel-img current-img" id="carousel-img-1">
-            <img src="/public/images/img-3.jpg" alt="" class="carousel-img" id="carousel-img-2">
-        <div class="right-btn" onClick="changeCarouselImage('next')">&#8594;</div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Level up your garden</h1>
+            <h2>Hire some professionals to get the best out of your garden</h2>
+            <div class="cto-container">
+
+                <a href="/contact.html">Contact us</a>
+                <p>329 happy clients. Be one of them!</p>
+            </div>
+            
+        </div>
+    </div>
+    <h1 style="margin-top: 50px;">Why should you pick us?</h1>
+    <div class="features">
+       
+        <div class="feature-container" id="feature-1">
+            <div class="feature-header">Naturally grown plants</div>
+            <div class="feature-text">All plants used and sold by us are plants that we grow inside our greenhouses, carefully maintained and using only organic farming practices, allowing them to develop and thrive in a natural and sustainable environment. </div>
+        </div>
+        <div class="feature-container" id="feature-2">
+            <div class="feature-header">Environment friendly</div>
+            <div class="feature-text">We respect the environment, so all our products and services are eco-friendly. From the tools used, to the way we work, we make sure that the environment is safe.</div>
+        </div>
+        <div class="feature-container" id="feature-3">
+            <div class="feature-header">Expertly executed</div>
+            <div class="feature-text">Every task and project is handled with professionalism and expertise. We take pride in delivering high-quality results and ensuring that all our services are executed in a professional manner.</div>
+        </div>
+    </div>
+    <h1 class="title">What others think about us</h1>
+    <div class="testimonials">
+        <div class="testimonial-body">
+            <img src="./public/images/quotes.jpg" alt="" class="quotes">
+            <div class="testimonial-text">Exceeded expectations, exceptional results. Highly recommended for their professionalism and attention to detail.</div>
+            <img src="./public/images/profile.jpg" alt="" class="testimonial-img">
+            <div class="line"></div>
+            <div class="testimonial-author">Sarah D.</div>
+            
+        </div>
+        <div class="testimonial-body">
+            <img src="./public/images/quotes.jpg" alt="" class="quotes">
+            <div class="testimonial-text">Knowledgeable, courteous professionals. Impressed with their dedication and expertise. Highly recommended.</div>
+            <img src="./public/images/profile.jpg" alt="" class="testimonial-img">
+            <div class="line"></div>
+            <div class="testimonial-author">John M.</div>
+        </div>
+        <div class="testimonial-body">
+            <img src="./public/images/quotes.jpg" alt="" class="quotes">
+            <div class="testimonial-text">Outstanding outcomes, best decision made. Highly recommend for their professionalism and remarkable attention.</div>
+            <img src="./public/images/profile.jpg" alt="" class="testimonial-img">
+            <div class="line"></div>
+            <div class="testimonial-author">Emily R.</div>
+        </div>
     </div>
     <div class="products-section">
+        <h1 class="title">Some of our products</h1>
         <div class="products-header">
             <div class="filters">
-                <p onClick="filterItems('all')">TOATE</p>
-                <p onClick="filterItems('populars')">POPULARE</p>
-                <p onClick="filterItems('summer')">VARA</p>
-                <p onClick="filterItems('spring')">PRIMAVARA</p>
-                <p onClick="filterItems('saplings')">COPACI</p>
+                <p onClick="filterItems('all')">All</p>
+                <p onClick="filterItems('populars')">Populars</p>
+                <p onClick="filterItems('summer')">Summer</p>
+                <p onClick="filterItems('spring')">Spring</p>
             </div>
-            <select name="sort" id="sort-btn" placeholder="Sortare">
-                <option value="alf-crescator">Alfabetic (A-Z)</option>
-                <option value="alf-descrescator">Alfabetic (Z-A)</option>
-                <option value="pret-crescator">Ieftine</option>
-                <option value="pret-descrescator">Scumpe</option>
-                <option value="noi">Noi</option>
-            </select>
+            
         </div>
         <div class="products-parent">
             <div id="products-container">
     
             </div>
         </div>
-        <a id="see-all-products-btn" href="/pages/produse.html">Vezi toate produsele</a>
+        <a id="see-all-products-btn" href="/pages/produse.html">See all products</a>
     </div>
+    <h1 class="title">Our location</h1>
     <div class="location-container" id="locatie">
-        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=850&amp;height=450&amp;hl=en&amp;q=combustibilului%203%20Tulcea+(MULTIFLORA)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=850&amp;height=450&amp;hl=en&amp;q=paris&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </div>
     
     <div class="contact-container" id="contact">
-        
+        <h1 class="title">Contact us</h1>
         <div class="contact-content">
             <div class="date-contact">
-                <h2>Date de contact</h2>
-                <p><img src="./public/images/mail.png" alt=""> multifloratulcea@gmail.com</p>
-                <p><img src="./public/images/phone.png" alt=""> 0745 064 725</p>
-                <p><img src="./public/images/phone.png" alt=""> 0748 881 362</p>
-                <a href="https://www.facebook.com/multifloratulcea"><img src="./public/images/facebook.png"> Facebook</a>
-                <a href="https://www.instagram.com/multiflora_tulcea/"><img src="./public/images/instagram.png"> Instagram</a>
+                <h2>Contact info</h2>
+                <p><img src="./public/images/mail.png" alt=""> fake@gmail.com</p>
+                <p><img src="./public/images/phone.png" alt=""> 1234 567 890</p>
+                <p><img src="./public/images/phone.png" alt=""> 1234 567 890</p>
+                <a href="#"><img src="./public/images/facebook.png"> Facebook</a>
+                <a href="#/"><img src="./public/images/instagram.png"> Instagram</a>
 
             </div>
             <div class="program">
@@ -74,15 +115,15 @@
                 <div id="open-status"></div>
                 <div class="schedule">
                     <div>
-                        <div class="days">Luni - Vineri:</div>
+                        <div class="days">Monday - Friday:</div>
                         <div class="hours">09:00 - 18:00</div>
                     </div>   
                     <div>
-                        <div class="days">Sambata:</div>
+                        <div class="days">Saturday:</div>
                         <div class="hours">10:00 - 17:00</div>
                     </div>            
                     <div>
-                        <div class="days">Duminica:</div>
+                        <div class="days">Sunday:</div>
                         <div class="hours">10:00 - 15:00</div>
                     </div>     
                 </div>
