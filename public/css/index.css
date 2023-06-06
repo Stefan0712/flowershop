@@ -358,9 +358,17 @@ footer{
     justify-content: center;
     border-top: 1px solid rgba(211, 211, 211, 0.411);
 }
-
+.section-header{
+    margin-top: 50px;
+    max-width: 80%;
+    text-align: center;
+}
 
 @media only screen and (max-width: 1000px) {
+    .nav{
+        position: fixed;
+        z-index: 10;
+      }
     .date-contact{
         align-items: center;
     }
@@ -379,6 +387,38 @@ footer{
         flex-direction: column;
         align-items: start;
     }
+    .feature-container{
+        height: auto;
+        width: 90%;
+        hyphens: auto;
+    }
+    .feature-header{
+        text-align: center;
+    }
+    .testimonial-text{
+        overflow: hidden;
+    }
+    .product-container{
+        width: 90%;
+    }
+    .location-container{
+        height: 500px;
+    }
+    .schedule{
+        width: 90%;
+
+    }
+    .schedule div{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .schedule .days{
+        font-weight: bolder;
+    }
+
+    /* nav */
+
 
 
 }

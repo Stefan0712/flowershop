@@ -337,3 +337,13 @@ const applyFilters = () =>{
   
 
 }
+
+const toggleFilterMenu = () =>{
+  document.querySelector('.left-menu').classList.toggle('show')
+  const btn = document.querySelector('.show-filters-btn')
+  if(btn.innerHTML =="Show Filters"){
+    btn.innerHTML = "Hide Filters"
+  }else{
+    btn.innerHTML = 'Show Filters'
+  }
+}

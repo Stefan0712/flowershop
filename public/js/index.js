@@ -195,4 +195,3 @@ const checkIfOpen = () =>{
 
 }
 checkIfOpen()
-

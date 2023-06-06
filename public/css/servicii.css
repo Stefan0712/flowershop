@@ -136,7 +136,7 @@ body{
 
 .portfolio-container{
     width: 80%;
-    border-top: 3px solid lightgray;
+    
     display: flex;
     padding: 20px;
     flex-wrap:wrap;
@@ -171,6 +171,7 @@ body{
 .portfolio-header{
     width: calc(80% + 40px);
     border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgray;
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -185,4 +186,90 @@ footer{
     justify-content: center;
     border-top: 1px solid rgba(211, 211, 211, 0.411);
     margin-top: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-x: hidden;
+    }
+    .services-hero-content h1{
+        width: 80%;
+        text-align: center;
+    }
+    .hero-btns{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .hero-btns a{
+        width: 75%;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+   .services-list{
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+   }
+    .service-container{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    .service-container img{
+        width: 100%;
+        height: auto;
+
+    }
+    .service-details{
+        width: 90%;
+    }
+    .service-details{
+        text-align: center;
+    }
+    .service-details p{
+        text-align: justify;
+        hyphens: auto;
+    }
+    .price-container{
+        width: 90%;
+    }
+    .service-container button{
+        margin-bottom: 25px;
+    }
+    .portfolio-container{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 25px;
+    }
+    .project-container{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .project-img{
+        width: 100%;
+        height: auto;
+    }
+    .project-details{
+        width: 95%;
+        height: auto;
+        position: relative;
+        background-color: white;
+        color: black;
+    }
+    
+    
+
+
 }

@@ -63,3 +63,22 @@ footer{
     border-top: 1px solid rgba(211, 211, 211, 0.411);
     margin-top: auto;
 }
+@media only screen and (max-width: 1000px) {
+
+    .despre-hero{
+        height: 300px;
+    }
+    .text{
+        width: 90%;
+        text-align: justify;
+        hyphens: auto;
+        margin-bottom: 25px;
+    }
+    .text h2{
+        width: 95%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+
+}

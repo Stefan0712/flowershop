@@ -32,3 +32,45 @@ nav{
     height: 80%;
     width: auto;
 }
+.nav-icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    background-image: url('../images/menu.png');
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+
+    .nav-links{
+        width: 100vw;
+        height: 400px;
+        position: absolute;
+        top: 75px;
+        flex-direction: column;
+        background-color: white;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: all 0.3s;
+
+    }
+    .nav-links a{
+        width: 100%;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .show{   
+        transform: scaleY(1);
+        transition: all 0.3s;
+    }
+
+    .logo{
+        margin-left: 25px;
+    }
+
+}
