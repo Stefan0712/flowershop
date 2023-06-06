@@ -9,6 +9,7 @@ nav{
 .nav-links{
     margin-right: 100px;
     width: 30%;
+    min-width: 400px;
     height: 100%;
     display: flex;
     justify-content: space-evenly;

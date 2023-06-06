@@ -34,15 +34,18 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 20%;
+    padding-left: 15%;
     color: white;
 }
 .hero-content h1{
     font-size: 5rem;
+    max-width: 90%;
 
 }
 .hero-content h2{
     font-size: 2rem;
+    max-width: 90%;
+    
 }
 .hero-content a{
     width: 200px;
@@ -84,7 +87,7 @@ body{
 }
 .feature-container{
     width: 80%;
-    height: 150px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     gap: 30px;
