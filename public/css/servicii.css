@@ -110,6 +110,7 @@ body{
     flex-direction: column;
     width: 70%;
     height: 100%;
+    overflow: hidden;
 }
 .service-details p{
     margin-top: 50px;
