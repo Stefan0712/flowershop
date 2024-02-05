@@ -5,7 +5,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10, // generates a random price between 10 and 60
       season: "summer",
       categories: ["Annual", "Cut Flower"],
-      url: '../public/images/sunflower.jpg',
+      url: './public/images/sunflower.jpg',
       size: 'small'
     },
     {
@@ -14,7 +14,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Perennial", "Cut Flower", "Fragrant"],
-      url: '../public/images/rose.jpg',
+      url: './public/images/rose.jpg',
       size: 'very-big'
     },
     {
@@ -23,7 +23,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Bulb", "Cut Flower"],
-      url: '../public/images/tulip.jpg',
+      url: './public/images/tulip.jpg',
       size: 'medium'
     },
     {
@@ -32,7 +32,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Perennial", "Herb", "Fragrant"],
-      url: '../public/images/lavender.jpg',
+      url: './public/images/lavender.jpg',
       size: 'small'
     },
     {
@@ -41,7 +41,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Annual", "Cut Flower"],
-      url: '../public/images/daisy.jpg',
+      url: './public/images/daisy.jpg',
       size: 'very-big'
     },
     {
@@ -50,7 +50,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Perennial", "Cut Flower"],
-      url: '../public/images/lily.jpg',
+      url: './public/images/lily.jpg',
       size: 'big'
     },
     {
@@ -59,7 +59,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Perennial", "Cut Flower", "Fragrant"],
-      url: '../public/images/peony.jpg',
+      url: './public/images/peony.jpg',
       size: 'small'
     },
     {
@@ -68,7 +68,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "autumn",
       categories: ["Annual", "Perennial", "Cut Flower"],
-      url: '../public/images/chrysanthemum.jpg',
+      url: './public/images/chrysanthemum.jpg',
       size: 'very-big'
     },
     {
@@ -77,7 +77,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Shrub", "Cut Flower"],
-      url: '../public/images/hydrangea.jpg',
+      url: './public/images/hydrangea.jpg',
       size: 'medium'
     },
     {
@@ -86,7 +86,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "autumn",
       categories: ["Perennial", "Indoor Plant"],
-      url: '../public/images/orchid.jpg',
+      url: './public/images/orchid.jpg',
       size: 'small'
     },
     {
@@ -95,7 +95,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10, // generates a random price between 10 and 60
       season: "summer",
       categories: ["Annual", "Cut Flower"],
-      url: '../public/images/sunflower.jpg',
+      url: './public/images/sunflower.jpg',
       size: 'small'
     },
     {
@@ -104,7 +104,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Perennial", "Cut Flower", "Fragrant"],
-      url: '../public/images/rose.jpg',
+      url: './public/images/rose.jpg',
       size: 'very-big'
     },
     {
@@ -113,7 +113,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Bulb", "Cut Flower"],
-      url: '../public/images/tulip.jpg',
+      url: './public/images/tulip.jpg',
       size: 'medium'
     },
     {
@@ -122,7 +122,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Perennial", "Herb", "Fragrant"],
-      url: '../public/images/lavender.jpg',
+      url: './public/images/lavender.jpg',
       size: 'small'
     },
     {
@@ -131,7 +131,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Annual", "Cut Flower"],
-      url: '../public/images/daisy.jpg',
+      url: './public/images/daisy.jpg',
       size: 'very-big'
     },
     {
@@ -140,7 +140,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Perennial", "Cut Flower"],
-      url: '../public/images/lily.jpg',
+      url: './public/images/lily.jpg',
       size: 'big'
     },
     {
@@ -149,7 +149,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "spring",
       categories: ["Perennial", "Cut Flower", "Fragrant"],
-      url: '../public/images/peony.jpg',
+      url: './public/images/peony.jpg',
       size: 'small'
     },
     {
@@ -158,7 +158,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "autumn",
       categories: ["Annual", "Perennial", "Cut Flower"],
-      url: '../public/images/chrysanthemum.jpg',
+      url: './public/images/chrysanthemum.jpg',
       size: 'very-big'
     },
     {
@@ -167,7 +167,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "summer",
       categories: ["Shrub", "Cut Flower"],
-      url: '../public/images/hydrangea.jpg',
+      url: './public/images/hydrangea.jpg',
       size: 'medium'
     },
     {
@@ -176,7 +176,7 @@ const flowers = [
       price: Math.floor(Math.random() * 50) + 10,
       season: "autumn",
       categories: ["Perennial", "Indoor Plant"],
-      url: '../public/images/orchid.jpg',
+      url: './public/images/orchid.jpg',
       size: 'big'
     }
   ];
